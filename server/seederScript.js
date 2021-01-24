@@ -6,6 +6,7 @@ const Product = require('./models/Product');
 
 connectDB();
 
+//Import Product data into MondoDB
 const importData = async () => {
     try {
         await Product.deleteMany({});
