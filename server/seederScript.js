@@ -8,15 +8,15 @@ connectDB();
 
 const importData = async () => {
     try {
-        await Product.remove({});
+        await Product.deleteMany({});
 
         await Product.insertMany(productData);
 
-        console.log('Data Import Success');
+        console.log('Data Import Success!');
 
         process.exit();
     } catch (error) {
-        console.error('Error with data import', error);
+        console.error('Data Import Failed', error);
         process.exit(1);
     }
 };
