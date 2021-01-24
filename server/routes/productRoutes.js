@@ -9,6 +9,6 @@ const {
 router.get('/', getAllProducts);
 
 //Get product by id from db
-router.get('/id', getProductById);
+router.get('/:id', getProductById);
 
 module.exports = router;
