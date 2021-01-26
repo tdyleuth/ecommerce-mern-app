@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ click }) => {
     return (
         <nav className='navbar'>
             {/* logo*/}
@@ -10,12 +10,14 @@ const Navbar = () => {
                 <h2>Retro Video Games</h2>
             </div>
             {/* links */}
-            <ul className='nav__links'>
+            <ul className='navbar__links'>
                 <li>
-                    <Link to='/cart'>
+                    <Link to='/cart' className='cart__link'>
                         <i className='fas fa-shopping-cart'></i>
-                        Cart
-                        <span className='cartLogo__badge'>0</span>
+                        <span>
+                            Cart
+                            <span className='cartLogo__badge'>0</span>
+                        </span>
                     </Link>
                 </li>
                 <li>
@@ -24,7 +26,7 @@ const Navbar = () => {
             </ul>
 
             {/* hamburger menu*/}
-            <div className='hamburger__menu'>
+            <div onClick={click} className='hamburger__menu'>
                 <div></div>
                 <div></div>
                 <div></div>
