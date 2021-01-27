@@ -7,7 +7,7 @@ const Navbar = ({ click }) => {
         <nav className='navbar'>
             {/* logo*/}
             <div className='navbar__logo'>
-                <h2>Retro Video Games</h2>
+                <h2>Retro Game Store</h2>
             </div>
             {/* links */}
             <ul className='navbar__links'>
