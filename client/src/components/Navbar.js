@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { useSelector } from 'react-redux';
-
+import Logo from '../components/Images/RGS_logo.png';
 const Navbar = ({ click }) => {
     const cart = useSelector((state) => state.cart);
 
@@ -15,7 +15,7 @@ const Navbar = ({ click }) => {
         <nav className='navbar'>
             {/* logo*/}
             <div className='navbar__logo'>
-                <h2>Retro Game Store</h2>
+                <img src={Logo} alt='Retro Game Store' />
             </div>
             {/* links */}
             <ul className='navbar__links'>

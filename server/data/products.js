@@ -53,6 +53,23 @@ const products = [
         price: 35,
         countInStock: 10,
     },
+    {
+        name: 'Super Mario Bros & Duck Hunt',
+        imageUrl:
+            'https://images.unsplash.com/photo-1613255990799-f6141f60cdad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80',
+        description:
+            'Super Mario Bros./Duck Hunt is a best-selling NES cartridge combining the games Super Mario Bros. and Duck Hunt. The player would select which game to play on the first menu. It was a best selling game, largely due to the fact that it was packaged with the NES Action Set. That package also included the Zapper Light Gun for Duck Hunt. This game was developed and published by Nintendo and was released in November 1988.',
+        price: 70,
+        countInStock: 4,
+    },
+    {
+        name: 'Nintedo Gamecube',
+        imageUrl:
+            'https://images.unsplash.com/photo-1494666144702-70d86c6cf884?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80',
+        description: `The Nintendo GameCube is a home video game console released by Nintendo in Japan and North America in 2001 and in PAL territories in 2002. The GameCube is Nintendo's entry in the sixth generation of video game consoles and the successor to their previous console, the Nintendo 64.`,
+        price: 150,
+        countInStock: 2,
+    },
 ];
 
 module.exports = products;

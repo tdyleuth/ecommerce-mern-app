@@ -5,14 +5,12 @@
     align-items: center;
     padding: 1.5rem 1rem;
     width: 100%;
-    background-color: #171717;
+    background: rgb(27, 43, 46);
     z-index: 50;
 }
 
-.navbar__logo h2 {
-    color: #f4f4f4;
-    font-size: 1.4rem;
-    cursor: pointer;
+.navbar__logo img {
+    width: 130px;
 }
 
 .navbar__links {
