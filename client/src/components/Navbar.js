@@ -15,7 +15,10 @@ const Navbar = ({ click }) => {
         <nav className='navbar'>
             {/* logo*/}
             <div className='navbar__logo'>
-                <img src={Logo} alt='Retro Game Store' />
+                <Link to='/'>
+                    {' '}
+                    <img src={Logo} alt='Retro Game Store' />
+                </Link>
             </div>
             {/* links */}
             <ul className='navbar__links'>
