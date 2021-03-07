@@ -22,7 +22,7 @@ const products = [
         imageUrl:
             'https://images.unsplash.com/photo-1599336008464-99ad92a4c84c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80',
         description:
-            'The Game Boy[a] is an 8-bit handheld game console developed and manufactured by Nintendo. The first handheld in the Game Boy family, it was first released in Japan in April 1989, then North America, three months later, and lastly in Europe, more than one year later. It was designed by the same team that developed the Game & Watch series of handheld electronic games and several Nintendo Entertainment System games: Satoru Okada, Gunpei Yokoi, and Nintendo Research & Development 1.',
+            'The Game Boy is an 8-bit handheld game console developed and manufactured by Nintendo. The first handheld in the Game Boy family, it was first released in Japan in April 1989, then North America, three months later, and lastly in Europe, more than one year later. It was designed by the same team that developed the Game & Watch series of handheld electronic games and several Nintendo Entertainment System games: Satoru Okada, Gunpei Yokoi, and Nintendo Research & Development 1.',
         price: 75,
         countInStock: 5,
     },

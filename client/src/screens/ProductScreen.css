@@ -1,5 +1,6 @@
 .productscreen {
     max-width: 1300px;
+    height: 100vh;
     margin: 1rem auto;
     display: flex;
 }
@@ -14,6 +15,10 @@
     flex: 0.6;
 }
 
+.left__image img {
+    border-radius: 1rem;
+}
+
 .left__info {
     margin: 1rem;
     flex: 0.4;
@@ -26,6 +31,7 @@
 .left__name {
     font-weight: bold;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 .left__info > p,
@@ -39,6 +45,11 @@
     border: none;
 }
 
+.left__info > p:nth-child(2) {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
 .productscreen__right {
     flex: 0.2;
 }
